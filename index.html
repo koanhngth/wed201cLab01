@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML_myLab01</title>
+    <style type="text/css">
+        table,
+        td,
+        th {
+            border: 1px solid gray;
+        }
+
+
+
+        .skill-container {
+            width: 33%;
+            /* This will make the skill bar one third of its original width */
+            background-color: #ddd;
+            border-radius: 25px;
+            /* This will give the rounded corners */
+        }
+
+        .skill-bar {
+            text-align: right;
+
+            line-height: 10px;
+            /* This will make the skill bar one third of its original height */
+            color: white;
+            border-radius: 25px;
+            /* This should match the radius of the skill-container for consistent rounding */
+        }
+
+        .html {
+            width: 90%;
+            background-color: #2196F3;
+        }
+
+        .css {
+            width: 80%;
+            background-color: #2196F3;
+        }
+
+        .javascript {
+            width: 60%;
+            background-color: #2196F3;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MY RESUME</h1>
+
+        <nav>
+            <span>
+                <a href="http://">My skill</a> |
+                <a href="http://">My education</a> |
+                <a href="http://">My contact</a>
+            </span>
+        </nav>
+
+        <img src="./images/Lab1_HTML.jpg" alt="profile" width="400" height="300" />
+
+        <h2>NGUYEN THI KIEU OANH</h2>
+        <h3>Bridge System Engineer</h3>
+        <h3>INFO:</h3>
+
+        <div>
+            <img src="./images/location.png" alt="location">
+            <span>Address: <i>102/20c, Tran Hoang Na street, Hung Loi District</i> <br></span>
+            <img src="./images/call.png" alt="call">
+            <span>Phone: <i>+84 344045385</i><br></span>
+            <img src="./images/mail.png" alt="email">
+            <span>Email: <i>oanhntkce181400@fpt.edu.vn</i></span>
+        </div>
+    </header>
+
+    <main>
+        <article>
+            <section>
+                <h4>PROFILE:</h4>
+                <p>I have several years of experience in the field of information technology. Especially in the field of
+                    Software
+                    Engineering. I have participated in projects on automatic vehicle programming and written a few
+                    management programs. In
+                    addition, I am fluent in Japanese and English, and have good communication and management skills
+                    through being a team
+                    leader and a member of the club's executive board.</p>
+            </section>
+
+            <section>
+                <h4>WORK EXPERIENCE</h4>
+                <aside>
+                    <ol>
+                        <li><b>2019 - 2023:</b> <i>Learn and learn and learn</i></li>
+                        <ul>
+                            <li>Learn laern</li>
+                            <li>La fjefmekmkv</li>
+                        </ul>
+
+                        <li><b>2023 - 2024:</b> <i>Learn and learn laernaekf</i></li>
+                        <ul>
+                            <li>jnafkkanfks</li>
+                            <li>jnafkkanfks</li>
+                            <li>jnafkkanfks</li>
+                            <li>jnafkkanfks</li>
+                        </ul>
+                    </ol>
+                </aside>
+            </section>
+
+            <section>
+                <h4>EDUCATION</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th><b>Year</b></th>
+                            <th><b>Qualification</b></th>
+                            <th><b>Study Place</b></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1991 -1912</td>
+                            <td>ắnknkcs ,àmkmv</td>
+                            <td>ặncnskmkawjfsn</td>
+                        </tr>
+
+                        <tr>
+                            <td>maknsfk</td>
+                            <td>ằnk sc</td>
+                            <td>ậnnfmkmskmkamwkfnknawkf</td>
+                        </tr>
+
+                        <tr>
+                            <td>a cnnắnkkasmfsa</td>
+                            <td>kànksncknafskkmasmflas</td>
+                            <td>knwafknsknkawfjwankmsc</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h4>SKILL</h4>
+                <p>HTML (90%)</p>
+                <div class="skill-container">
+                    <div class="skill-bar html">90%</div>
+                </div>
+
+                <p>CSS (80%)</p>
+                <div class="skill-container">
+                    <div class="skill-bar css">80%</div>
+                </div>
+
+                <p>JavaScript (60%)</p>
+                <div class="skill-container">
+                    <div class="skill-bar javascript">60%</div>
+                </div>
+
+            </section>
+
+            <section>
+                <h5>HOBBY</h5>
+                <aside>
+                    <img src="./images/news.png" alt="news">
+                    <span><b>News: </b> <i>vnexpress.net</i><br></span>
+                    <img src="./images/vnexpress.jpg" alt="">
+                </aside>
+
+                <aside>
+                    <img src="./images/video.png" alt="video">
+                    <span><b>Video: </b> <i>Doreamon</i><br></span>
+                    <video controls>
+                        <source src="./data/DoraemonTheMovie2017.mp4" type="video/mp4">
+                    </video>
+                </aside>
+
+                <aside>
+                    <img src="./images/music.png" alt="music">
+                    <span><b>Music: </b> <i>Nguoi binh thuong</i><br></span>
+                    <audio controls>
+                        <source src="./data/NguoiBinhThuong.mp3" type="audio/mpeg">
+
+                    </audio>
+                </aside>
+
+            </section>
+
+            <section>
+                <h4>CONTACT:</h4>
+                <form action="/action_page.php">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname"><br>
+                    <label for="lname">Phone:</label>
+                    <input type="number" id="lname" name="lname"><br>
+                    <label for="lname">Email:</label>
+                    <input type="email" id="lname" name="lname"><br>
+                    <span>Gender:</span>
+                    <input type="radio" id="Male" name="gender" value="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" id="Female" name="gender" value="Female">
+                    <label for="Female">Female</label><br>
+
+                    <span>Choose interests:</span>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Java</label>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> CSharp</label>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> HTML</label>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> CSS</label><br>
+                    <label for="city">Support:</label>
+                    <select name="city" id="city">
+                        <option value="sydney">HTML</option>
+                        <option value="melbourne">CSS</option>
+                        <option value="cromwell">CSharp</option>
+                        <option value="cromwell">PHP</option>
+                    </select><br>
+                    <span>Content:</span><br>
+                    <textarea name="message" rows="5" cols="28"></textarea><br>
+                    <input type="submit" value="Sent">
+                    <input type="submit" value="Reset"><br><br>
+
+
+                </form>
+            </section>
+
+
+        </article>
+
+
+
+    </main>
+
+    <footer>
+        &copy;
+        <span>Copyright 2024, Design by Nguyen Thi Kieu Oanh</span>
+    </footer>
+</body>
+
+</html>
