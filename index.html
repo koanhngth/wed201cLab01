@@ -53,11 +53,11 @@
     <header>
         <h1>MY RESUME</h1>
 
-        <nav>
+        <nav id="topmenu">
             <span>
-                <a href="http://">My skill</a> |
-                <a href="http://">My education</a> |
-                <a href="http://">My contact</a>
+                <a href="#skill">My skill</a> |
+                <a href="#education">My education</a> |
+                <a href="#contact">My contact</a>
             </span>
         </nav>
 
@@ -69,9 +69,11 @@
 
         <div>
             <img src="./images/location.png" alt="location">
-            <span>Address: <i>102/20c, Tran Hoang Na street, Hung Loi District</i> <br></span>
+            <span>Address: <i>102/20c, Tran Hoang Na street, Hung Loi ward, Ninh Kieu district, Can Tho city</i></span>
+            <br>
             <img src="./images/call.png" alt="call">
-            <span>Phone: <i>+84 344045385</i><br></span>
+            <span>Phone: <i>+84 344045385</i></span>
+            <br>
             <img src="./images/mail.png" alt="email">
             <span>Email: <i>oanhntkce181400@fpt.edu.vn</i></span>
         </div>
@@ -94,24 +96,33 @@
                 <h4>WORK EXPERIENCE</h4>
                 <aside>
                     <ol>
-                        <li><b>2019 - 2023:</b> <i>Learn and learn and learn</i></li>
+                        <li><strong>01/2024 - Current:</strong> <em>Vice president of WEGO club at FPT University</em>
+                        </li>
                         <ul>
-                            <li>Learn laern</li>
-                            <li>La fjefmekmkv</li>
+                            <li>Manage foreign affairs activities, communicate with sponsors, and monitor external
+                                feedback</li>
+                            <li>Search for funding sources to support club projects, meet and discuss with partners</li>
                         </ul>
 
-                        <li><b>2023 - 2024:</b> <i>Learn and learn laernaekf</i></li>
+                        <li><strong>12/2023 - Current:</strong> <em>Member of the FCODER'S BOT ASSISTANT project at FPT
+                                University</em></li>
                         <ul>
-                            <li>jnafkkanfks</li>
-                            <li>jnafkkanfks</li>
-                            <li>jnafkkanfks</li>
-                            <li>jnafkkanfks</li>
+                            <li>Skills in using Golang language and teamwork skill</li>
+                            <li>Develop boot and discord algorithms</li>
+                        </ul>
+
+                        <li><strong>2023 - 2024:</strong> <em>The leader of a team at FPT University</em></li>
+                        <ul>
+                            <li>Plan projects and distribute to human resources</li>
+                            <li>Summarize the results and make a final report</li>
+                            <li>Remind members to complete on schedule</li>
+                            <li>Take responsibility for reports</li>
                         </ul>
                     </ol>
                 </aside>
             </section>
 
-            <section>
+            <section id="education">
                 <h4>EDUCATION</h4>
                 <table>
                     <thead>
@@ -123,54 +134,55 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>1991 -1912</td>
-                            <td>ắnknkcs ,àmkmv</td>
-                            <td>ặncnskmkawjfsn</td>
+                            <td>2022 - Now</td>
+                            <td>Undergraduate</td>
+                            <td>FPT University</td>
                         </tr>
 
                         <tr>
-                            <td>maknsfk</td>
-                            <td>ằnk sc</td>
-                            <td>ậnnfmkmskmkamwkfnknawkf</td>
+                            <td>2019 - 2022</td>
+                            <td>High school education</td>
+                            <td>Huynh Thi Huong High school</td>
                         </tr>
 
                         <tr>
-                            <td>a cnnắnkkasmfsa</td>
-                            <td>kànksncknafskkmasmflas</td>
-                            <td>knwafknsknkawfjwankmsc</td>
+                            <td>2015 - 2019</td>
+                            <td>Secondary school education</td>
+                            <td>Le Hung Nhuong Secondary school</td>
+                        </tr>
+
+                        <tr>
+                            <td>2010 - 2015</td>
+                            <td>Primary school education</td>
+                            <td>Tran Phu Primary school</td>
                         </tr>
                     </tbody>
                 </table>
             </section>
 
-            <section>
+            <section id="skill">
+
                 <h4>SKILL</h4>
-                <p>HTML (90%)</p>
-                <div class="skill-container">
-                    <div class="skill-bar html">90%</div>
-                </div>
-
-                <p>CSS (80%)</p>
-                <div class="skill-container">
-                    <div class="skill-bar css">80%</div>
-                </div>
-
-                <p>JavaScript (60%)</p>
-                <div class="skill-container">
-                    <div class="skill-bar javascript">60%</div>
-                </div>
+                <p>HTML (50%) <progress id="progressBar" value="0.5" max="1"></progress></p>
+                <p>CSS (30%) <progress id="progressBar" value="0.3" max="1"></progress></p>
+                <p>JavaScript (25%) <progress id="progressBar" value="0.25" max="1"></progress></p>
 
             </section>
 
             <section>
                 <h5>HOBBY</h5>
                 <aside>
+
                     <img src="./images/news.png" alt="news">
-                    <span><b>News: </b> <i>vnexpress.net</i><br></span>
-                    <img src="./images/vnexpress.jpg" alt="">
+
+                    <span><b>News: </b>
+                        <a href="https://tuoitre.vn/" target="_blank"><i>tuoitre.vn</i></a> <br>
+                        <iframe src="https://tuoitre.vn/" frameborder="0" height="520" width="850"> </iframe>
+
                 </aside>
 
                 <aside>
+
                     <img src="./images/video.png" alt="video">
                     <span><b>Video: </b> <i>Doreamon</i><br></span>
                     <video controls>
@@ -189,44 +201,48 @@
 
             </section>
 
-            <section>
+            <section id="contact">
                 <h4>CONTACT:</h4>
+
+
                 <form action="/action_page.php">
-                    <label for="fname">Name:</label>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Phone:</label>
-                    <input type="number" id="lname" name="lname"><br>
-                    <label for="lname">Email:</label>
-                    <input type="email" id="lname" name="lname"><br>
-                    <span>Gender:</span>
-                    <input type="radio" id="Male" name="gender" value="Male">
-                    <label for="Male">Male</label>
-                    <input type="radio" id="Female" name="gender" value="Female">
-                    <label for="Female">Female</label><br>
+                    <fieldset>
+                        <label for="fname">Name:</label>
+                        <input type="text" id="fname" name="fname"><br>
+                        <label for="lname">Phone:</label>
+                        <input type="number" id="lname" name="lname"><br>
+                        <label for="lname">Email:</label>
+                        <input type="email" id="lname" name="lname"><br>
+                        <span>Gender:</span>
+                        <input type="radio" id="Male" name="gender" value="Male">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Female" name="gender" value="Female">
+                        <label for="Female">Female</label><br>
 
-                    <span>Choose interests:</span>
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> Java</label>
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                    <label for="vehicle2"> CSharp</label>
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                    <label for="vehicle3"> HTML</label>
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                    <label for="vehicle3"> CSS</label><br>
-                    <label for="city">Support:</label>
-                    <select name="city" id="city">
-                        <option value="sydney">HTML</option>
-                        <option value="melbourne">CSS</option>
-                        <option value="cromwell">CSharp</option>
-                        <option value="cromwell">PHP</option>
-                    </select><br>
-                    <span>Content:</span><br>
-                    <textarea name="message" rows="5" cols="28"></textarea><br>
-                    <input type="submit" value="Sent">
-                    <input type="submit" value="Reset"><br><br>
+                        <span>Choose interests:</span>
+                        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                        <label for="vehicle1"> Java</label>
+                        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                        <label for="vehicle2"> CSharp</label>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> HTML</label>
+                        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                        <label for="vehicle3"> CSS</label><br>
+                        <label for="city">Support:</label>
+                        <select name="city" id="city">
+                            <option value="sydney">HTML</option>
+                            <option value="melbourne">CSS</option>
+                            <option value="cromwell">CSharp</option>
+                            <option value="cromwell">PHP</option>
+                        </select><br>
+                        <span>Content:</span><br>
+                        <textarea name="message" rows="5" cols="30"></textarea><br>
+                        <input type="submit" value="Sent">
+                        <input type="submit" value="Reset"><br><br>
 
-
+                    </fieldset>
                 </form>
+
             </section>
 
 
